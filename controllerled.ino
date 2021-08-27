@@ -465,7 +465,7 @@ void loop() {
     noche();
   }
 
-  else  if  ((H == (horaintapagado + 3 ) && (Min == 03) && (Sec > 58)) {
+  else  if  ((H == (horaintapagado + 3 )) && (Min == 03) && (Sec > 58)) {
   ESP.restart();
   }
   else {
